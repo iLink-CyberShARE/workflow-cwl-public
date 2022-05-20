@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  workflow-cwl: 
+    container_name: workflow-cwl-public
+    image: lagarnicachavira/workflow-cwl-public:latest
+    restart: always
+    environment:
+      BOILERPLATE_ENV: 'prod'
+    ports:
+      # <host port> : <application port>
+      - '5004:5004'

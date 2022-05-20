@@ -25,7 +25,8 @@ Docker Build and Compose
 7) Once running, the API documentation will be locally available at http://localhost:5004/workflow-cwl/docs/
 
 
-The public image of the CWL-wrapper can also be pulled from dockerhub repo: lagarnicachavira/workflow-cwl-public
+The public image of the CWL-wrapper can also be pulled from dockerhub repo:  
+lagarnicachavira/workflow-cwl-public
 
 ## Native Installation
     - Install Python > 3
@@ -42,11 +43,11 @@ This material is based upon work supported by the National Science Foundation (N
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## Contributors
-Project PI - Natalia Villanueva-Rosales
-Project Co-PI - Deana D. Pennington
-Project Co-PI - Josiah Heyman
-Developer - Raul Alejandro Vargas Acosta
-Developer - Luis Garnica Chavira
+Project PI - Natalia Villanueva-Rosales   
+Project Co-PI - Deana D. Pennington   
+Project Co-PI - Josiah Heyman   
+Developer - Raul Alejandro Vargas Acosta   
+Developer - Luis Garnica Chavira   
 
 ## License
 GNU GENERAL PUBLIC LICENSE v3.0

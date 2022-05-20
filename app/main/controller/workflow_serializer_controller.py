@@ -43,7 +43,8 @@ class Serialize(Resource):
 
         workflow = data.get("workflow")
         flowid = data.get("flowid")
-        authToken = request.headers.get('Authorization')
+        # authToken = request.headers.get('Authorization')
+        authToken = "dummy-token"
         # authToken includes 'Bearer'
 
         # TODO: Move the logic to service and handler class...

@@ -4,6 +4,9 @@ The service provides two endpoints:
     - serialize: Converts a workflow plan in JSON format to CWL.
     - run: Executes a cwl workflow plan with an assigned flow identifier.
 
+This microservice forms part of the SWIM model orchestration pool, for more information view:   
+https://water.cybershare.utep.edu/resources/docs/en2/backend/swim-broker/
+
 ## OpenAPI Screenshots
 
 
@@ -46,15 +49,19 @@ CLI Run Commands:
     localhost run server (development mode): > py manage.py run (windows)   
     API documentation will be locally available at http://localhost:5004/workflow-cwl/docs/   
 
-## Acknowledgements
-This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.
-Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
+## Testing
+The tests folder in this repository contains input and output files used as an abstract test case
+and the SWIM (http://purl.org/swim) case study. You may use the abstract sample files for quick demo purposes.
 
 ## Contributors
 Raul Alejandro Vargas Acosta   
 Luis Garnica Chavira   
 Natalia Villanueva-Rosales   
 Deana D. Pennington     
+
+## Acknowledgements
+This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.
+Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## License
 GNU GENERAL PUBLIC LICENSE v3.0

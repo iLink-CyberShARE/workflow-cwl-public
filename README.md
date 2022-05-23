@@ -1,53 +1,60 @@
 # Workflow CWL Wrapper
 Web service wrapper for the Common Workflow Language API. 
 The service provides two endpoints:
-    - serialize: 
-    - run: 
-
-## OpenAPI Docs path
-http://localhost:5004/workflow-cwl/docs/
+    - serialize: Converts a workflow plan in JSON format to CWL.
+    - run: Executes a cwl workflow plan with an assigned flow identifier.
 
 ## OpenAPI Screenshots
 
 
-## Docker Container
+## Build and Run
 
-The Workflow CWL Wrapper can be deployed as a docker container.
-Docker Build and Compose
+### Option 1: Pull Docker Image   
+Environment Requirements: Docker and Docker Compose
+
+The public image of the Workflow Composer can be pulled from the Dockerhub repo:  
+lagarnicachavira/workflow-cwl-public   
+
+You can directly run the application using the docker-compose.yml in this repo.
+
+1) Modify the file docker-compose.yml if necesary.
+2) Run the container: > docker-compose up (linux)  |  docker compose up (windows)
+3) Once running, the OpenAPI documentation will be locally available at http://localhost:5004/workflow-cwl/docs/
+
+### Option 2: Build Docker Container   
+Environment Requirements: Docker
+
+The Workflow Composer can be deployed as a docker container using Docker Build or Compose.
 
 1) Download this repository into a folder on your machine.
 2) Install Docker and Docker composer on your target machine.
 3) Setup your docker account at: https://www.docker.com/get-started
 4) Using a command line or terminal navigate to the base path of the project.
 5) Build the image: > docker build -t workflow-cwl-public:latest.
-6) Modify the file docker-compose.yml if necesary.
-6) Run the container: > docker-compose up
+6) Run the container: > docker run -p 5004:5004 workflow-cwl-public:latest .
 7) Once running, the API documentation will be locally available at http://localhost:5004/workflow-cwl/docs/
 
+### Option 3: Build and Run Natively   
+Environment Requirements: Python 3+, pip, python virtual env  
 
-The public image of the CWL-wrapper can also be pulled from dockerhub repo:  
-lagarnicachavira/workflow-cwl-public
-
-## Native Installation
     - Install Python > 3
     - Setup a python virtual environment and activate  
     - Comment the uWSGI package on requirements.txt if running on windows
     - pip install -r requirements.txt
 
-### CLI Run Commands:
+CLI Run Commands:
     localhost run server (development mode): > py manage.py run (windows)   
-    API documentation will be locally available at http://localhost:5004/workflow-cwl/docs/
+    API documentation will be locally available at http://localhost:5004/workflow-cwl/docs/   
 
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## Contributors
-Project PI - Natalia Villanueva-Rosales   
-Project Co-PI - Deana D. Pennington   
-Project Co-PI - Josiah Heyman   
-Developer - Raul Alejandro Vargas Acosta   
-Developer - Luis Garnica Chavira   
+Raul Alejandro Vargas Acosta   
+Luis Garnica Chavira   
+Natalia Villanueva-Rosales   
+Deana D. Pennington     
 
 ## License
 GNU GENERAL PUBLIC LICENSE v3.0

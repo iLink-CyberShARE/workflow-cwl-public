@@ -31,8 +31,8 @@ api = CustomAPI(blueprint,
           version='1.0',
           description='CWL serializer and wrapper webservice',
           doc='/docs/',
-          security='Bearer Auth',
-          authorizations = authorizations
+        #   security='Bearer Auth'
+        #   authorizations = authorizations
           )
 
 api.add_namespace(serializer_ns, path='/workflow/serialize')

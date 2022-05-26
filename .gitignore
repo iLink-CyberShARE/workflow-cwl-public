@@ -125,6 +125,3 @@ dmypy.json
 
 # vscode
 .vscode/
-
-# self generated files
-*.cwl

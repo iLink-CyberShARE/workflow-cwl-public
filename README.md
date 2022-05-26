@@ -51,7 +51,10 @@ CLI Run Commands:
 
 ## Testing
 The tests folder in this repository contains input and output files used as an abstract test case
-and the SWIM (http://purl.org/swim) case study. You may use the abstract sample files for quick demo purposes.
+and the SWIM (http://purl.org/swim) case study. 
+
+You may use the abstract sample files for quick demo purposes, the abstract input can be serialized, but not executed.
+The generated serialization is saved on a separate folder, the response is just an acknowledgement of the serialization process.
 
 ## Contributors
 Raul Alejandro Vargas Acosta   

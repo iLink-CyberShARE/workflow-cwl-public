@@ -6,7 +6,7 @@
         "computationInfo": {
           "method": "POST",
           "contentType": "application/json",
-          "url": "http://129.108.18.45:6010/swim-assembler/assemble/"
+          "url": "https://p1-endpoint-url.com/swim-assembler/assemble/"
         },
         "prerequisites": []
       }
@@ -78,7 +78,7 @@
         "computationInfo": {
           "method": "POST",
           "contentType": "application/json",
-          "url": "http://129.108.18.45:5010/swim-wb-py/model/run"
+          "url": "https://p2-endpoint-url.com/swim-wb-py/model/run"
         },
         "prerequisites": ["7b7ac93638f711ec8d3d0242_transformation"]
       }
@@ -89,7 +89,7 @@
         "computationInfo": {
           "method": "POST",
           "contentType": "application/json",
-          "url": "http://129.108.18.45:6010/swim-assembler/assemble/"
+          "url": "https://p3-endpoint-url.com/swim-assembler/assemble/"
         },
         "prerequisites": ["7b7ac93638f711ec8d3d0242"]
       }
@@ -190,7 +190,7 @@
         "computationInfo": {
           "method": "POST",
           "contentType": "application/json",
-          "url": "http://129.108.18.45:9179/user-scenario-input/"
+          "url": "https://p4-endpoint-url.com/user-scenario-input/"
         },
         "prerequisites": [
           "5d8cdb841328534298eacf4a_transformation",

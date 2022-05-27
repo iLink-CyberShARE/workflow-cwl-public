@@ -2,12 +2,10 @@
 Web service wrapper for the Common Workflow Language API. 
 The service provides two endpoints:
     - serialize: Converts a workflow plan in JSON format to CWL.
-    - run: Executes a cwl workflow plan with an assigned flow identifier.
+    - run: Executes a CWL workflow plan with a pre-assigned flow identifier.
 
 This microservice forms part of the SWIM model orchestration pool, for more information view:   
 https://water.cybershare.utep.edu/resources/docs/en2/backend/swim-broker/
-
-## OpenAPI Screenshots
 
 
 ## Build and Run
@@ -17,6 +15,7 @@ Environment Requirements: Docker and Docker Compose
 
 The public image of the Workflow Composer can be pulled from the Dockerhub repo:  
 lagarnicachavira/workflow-cwl-public   
+https://hub.docker.com/r/lagarnicachavira/workflow-cwl-public   
 
 You can directly run the application using the docker-compose.yml in this repo.
 
@@ -54,7 +53,18 @@ The tests folder in this repository contains input and output files used as an a
 and the SWIM (http://purl.org/swim) case study. 
 
 You may use the abstract sample files for quick demo purposes, the abstract input can be serialized, but not executed.
-The generated serialization is saved on a separate folder, the response is just an acknowledgement of the serialization process.
+The generated serialization is saved in the root of the container, the response is just an acknowledgement of the serialization process.
+
+## OpenAPI Screenshots
+
+### OpenAPI Documentation Screenshot
+![Endpoints](/images/endpoints.png "Endpoint screenshot")
+
+### Abstract Example Input
+![Serializer Input](/images/abstract_serialize_input.png "Abstract Example Input")
+
+### Abstract Example Input
+![Serializer Output](/images/abstract_serialize_output.png "Abstract Example Output")
 
 ## Contributors
 Raul Alejandro Vargas Acosta   

@@ -38,3 +38,7 @@ output*
 *output
 testing-data/
 main.py
+tests/
+
+#ignore images folder
+images/

@@ -1,5 +1,5 @@
 # Pull ubuntu latest LTS image
-FROM ubuntu:latest
+FROM ubuntu:21.10
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -8,7 +8,7 @@ RUN apt-get update -y \
     && apt-get install -y python3 \
     && apt-get install -y mysql-server \
     && apt-get install -y python3-pip \
-    && apt-get install -y python3.8-venv \
+    && apt-get install -y python3-venv \
     && apt-get install -y libmysqlclient-dev \
     && apt-get install -y curl \
     # && yum install -y jq \

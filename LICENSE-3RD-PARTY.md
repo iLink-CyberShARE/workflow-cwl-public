@@ -12,7 +12,7 @@
 |[click](https://palletsprojects.com/p/click/)|8.0.1|[BSD 3-Clause License](https://github.com/pallets/click/blob/main/LICENSE.rst)
 |[coloredlogs](https://coloredlogs.readthedocs.io/en/latest/)|15.0.1|[MIT License](https://en.wikipedia.org/wiki/MIT_License)|
 |[CWL Upgrader](https://github.com/sbg/sevenbridges-cwl-draft2-upgrader)|1.2|[Apache License 2.0](https://github.com/sbg/sevenbridges-cwl-draft2-upgrader/blob/master/LICENSE)|
-|[CWL Utils](https://github.com/common-workflow-language/cwl-utils)|0.11|[Apache License 2.0]|(https://github.com/common-workflow-language/cwl-utils/blob/main/LICENSE)|
+|[CWL Utils](https://github.com/common-workflow-language/cwl-utils)|0.11|[Apache License 2.0](https://github.com/common-workflow-language/cwl-utils/blob/main/LICENSE)|
 |[CWL Format](https://github.com/rabix/cwl-format)|2021.1.5|[Apache License 2.0](https://github.com/rabix/cwl-format/blob/master/LICENSE)|
 |[CWL Tool](https://github.com/common-workflow-language/cwltool)|3.1.20210816212154|[Apache License 2.0](https://github.com/common-workflow-language/cwltool/blob/main/LICENSE.txt)|
 |[Flask](https://flask.palletsprojects.com/en/2.2.x/)|1.1.1|[BSD 3-Clause License](https://github.com/pallets/flask/blob/main/LICENSE.rst)|
@@ -29,7 +29,7 @@
 |[itsdangerous](https://palletsprojects.com/p/itsdangerous/)|2.0.1|[BSD 3-Clause License](https://github.com/pallets/itsdangerous/blob/main/LICENSE.rst)|
 |[Jinga](https://jinja.palletsprojects.com/en/3.1.x/)|3.0.1|[BSD 3-Clause License](https://github.com/pallets/jinja/blob/main/LICENSE.rst)|
 |[jsonschema](https://github.com/python-jsonschema/jsonschema)|4.4.0|[MIT License](https://github.com/python-jsonschema/jsonschema/blob/main/COPYING)|
-|[lockfile]|(https://launchpad.net/pylockfile)|0.12.2|[MIT License](https://en.wikipedia.org/wiki/MIT_License)|
+|[lockfile](https://launchpad.net/pylockfile)|0.12.2|[MIT License](https://en.wikipedia.org/wiki/MIT_License)|
 |[lxml](https://github.com/lxml/lxml)|4.6.3|[BSD 3-Clause License](https://github.com/lxml/lxml/blob/master/LICENSE.txt)|
 |[Markupsafe](https://github.com/pallets/markupsafe/)|2.0.1|[BSD 3-Clause License](https://github.com/pallets/markupsafe/blob/main/LICENSE.rst)|
 |[mistune](https://github.com/lepture/mistune)|0.8.4|[BSD 3-Clause License](https://github.com/lepture/mistune/blob/master/LICENSE)|
@@ -46,7 +46,7 @@
 |[python-dateutil](https://github.com/dateutil/dateutil)|2.8.2|[Apache License 2.0](https://github.com/dateutil/dateutil/blob/master/LICENSE)|
 |[pytz](https://pythonhosted.org/pytz/)|2021.3|[MIT License](https://en.wikipedia.org/wiki/MIT_License)|
 |[RDFLib](https://github.com/RDFLib/rdflib)|6.0.1|[BSD 3-Clause License](https://github.com/RDFLib/rdflib/blob/main/LICENSE)|
-|[rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld)|0.6.1|[[BSD 3-Clause License](https://github.com/RDFLib/rdflib-jsonld/blob/master/LICENSE.md)|
+|[rdflib-jsonld](https://github.com/RDFLib/rdflib-jsonld)|0.6.1|[BSD 3-Clause License](https://github.com/RDFLib/rdflib-jsonld/blob/master/LICENSE.md)|
 |[Requests](https://github.com/psf/requests)|2.26.0|[Apache License 2.0](https://github.com/psf/requests/blob/main/LICENSE)|
 |[ruamel](https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/)|0.16.12|[MIT License](https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree/LICENSE)|
 |[Schema Salad](https://github.com/common-workflow-language/schema_salad)|8.2.20210914115719|[Apache License 2.0](https://github.com/common-workflow-language/schema_salad/blob/main/LICENSE.txt)|
@@ -56,5 +56,5 @@
 |[typing](https://github.com/python/typing)|3.7.4.3|[Python Software Foundation License 2.0](https://github.com/python/typing/blob/master/LICENSE)|
 |[urllib3](https://github.com/urllib3/urllib3)|1.26.6|[MIT License](https://github.com/urllib3/urllib3/blob/main/LICENSE.txt)|
 |[Werkzeug](https://github.com/pallets/werkzeug)|0.16.0|[BSD 3-Clause](https://github.com/pallets/werkzeug/blob/main/LICENSE.rst)|
-|[uWSGI](https://github.com/unbit/uwsgi)|2.0.19.1|[GNU General Public License v2.0](https://github.com/unbit/uwsgi))|
+|[uWSGI](https://github.com/unbit/uwsgi)|2.0.19.1|[GNU General Public License v2.0](https://github.com/unbit/uwsgi)|
 

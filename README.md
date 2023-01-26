@@ -73,16 +73,17 @@ Natalia Villanueva-Rosales
 Deana D. Pennington     
 
 ## Acknowledgements
-This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.
+This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.  
+
 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
 
 ## License
-GNU GENERAL PUBLIC LICENSE v3.0
+This software code is licensed under the [GNU GENERAL PUBLIC LICENSE v3.0](./LICENSE) and uses third party libraries that are distributed under their own terms (see [LICENSE-3RD-PARTY.md](./LICENSE-3RD-PARTY.md)).
 
 ## Copyright
-© 2022 - University of Texas at El Paso (SWIM Project).
+© 2019-2023 - University of Texas at El Paso (SWIM Project).
 
-## References
+## Citations
 [1] P. Amstutz et al., “Common Workflow Language, v1.0,” 2016, doi: https://doi.org/10.6084/m9.figshare.3115156.v2.
 
 

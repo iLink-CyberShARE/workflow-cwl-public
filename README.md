@@ -70,7 +70,19 @@ The generated serialization is saved in the root of the container, the response 
 Raul Alejandro Vargas Acosta   
 Luis Garnica Chavira   
 Natalia Villanueva-Rosales   
-Deana D. Pennington     
+Deana D. Pennington   
+
+## How to cite
+If you create products such as publications using SWIM products, it would be great if you add the  following acknowledgement:   
+
+"This work used the Sustainable Water for Integrated Modeling (SWIM) 2.0, which was supported by the National Science Foundation under Grant No. 1835897."  
+
+Please use the following citation for this product:     
+
+Automating Multivariable Workflow Composition for Model-to-Model Integration   
+Vargas Acosta R. A., Garnica Chavira L., Villanueva-Rosales N., Pennington D.   
+2022 IEEE 18th International Conference on e-Science, Salt Lake City, USA. October 11-14, 2022.   
+DOI 10.1109/eScience55777.2022.00030 
 
 ## Acknowledgements
 This material is based upon work supported by the National Science Foundation (NSF) under Grant No. 1835897. This work used resources from Cyber-ShARE Center of Excellence, which is supported by NSF Grant number HRD-1242122.  
